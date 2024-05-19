@@ -1,4 +1,4 @@
-https://projecthub.arduino.cc/londonium2021/lazy-indoor-garden-c1d373
+https://projecthub.arduino.cc/londonium2021/lazy-
 
 1] choose crop 
 2] check current light intensity
@@ -8,7 +8,7 @@ project
 +917387191410
 http://wa.me/917387191410
 rohit.asawa21@gmail.com 
-
+Added new line
 
 https://arduinobymanmohan.blogspot.com/p/bluetooth-app-to-control-led-brightness.html
 https://www.youtube.com/watch?v=b8StklTdJAI
@@ -16,4 +16,4 @@ adjust light using bluetooth android studio
 
 
 2324DTN100046142
-2324DTR1002005053 MAHGOV
+231TR1002005053 MAHGOV
