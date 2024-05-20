@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText"
+    android:background="#254365">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="164dp"
+        android:layout_marginTop="244dp"
+        android:background="@drawable/background_border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/luxmeter"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="227dp"
+            android:layout_marginRight="227dp"
+            android:layout_marginBottom="43dp"
+            android:text=" "
+            android:textSize="32dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="91dp"
+            android:layout_height="38dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="95dp"
+            android:layout_marginRight="95dp"
+            android:layout_marginBottom="41dp"
+
+            android:gravity="center_horizontal"
+            android:text="Lux"
+            android:textAlignment="center"
+            android:textSize="32dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="218dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="105dp"
+            android:layout_marginRight="105dp"
+            android:layout_marginBottom="113dp"
+            android:background="@drawable/button_shape"
+            android:gravity="center_horizontal"
+            android:text="Illuminous"
+
+            android:textAlignment="center"
+            android:textSize="24dp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/off"
+        android:layout_width="121dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/off" />
+
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="140dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_shape"
+        android:text="Control"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.189"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="121dp"
+            android:layout_height="43dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="87dp"
+            android:layout_marginRight="87dp"
+            android:layout_marginBottom="67dp"
+            android:gravity="center_horizontal"
+            android:text=" "
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/status"
+            android:layout_width="119dp"
+            android:layout_height="98dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="256dp"
+            android:layout_marginRight="256dp"
+            android:layout_marginBottom="30dp"
+            app:srcCompat="@drawable/off" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/bright"
+        android:layout_width="126dp"
+        android:layout_height="99dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/bright" />
+
+    <Button
+        android:id="@+id/measure"
+        android:layout_width="121dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_shape"
+        android:text="Crop Info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
